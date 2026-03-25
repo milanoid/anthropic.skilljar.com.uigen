@@ -67,6 +67,10 @@ The `VirtualFileSystem` instance is reconstructed on each request from the seria
 - `/[projectId]` — loads project data and renders `MainContent` with it
 - `/api/chat` — streaming POST endpoint; `maxDuration = 120s`
 
+### Database schema
+
+The database schema is defined in `prisma/schema.prisma`. Reference it anytime you need to understand the structure of the data stored in the database.
+
 ### Code style
 
 - Use comments sparingly. Only comment complex/non-obvious code.
